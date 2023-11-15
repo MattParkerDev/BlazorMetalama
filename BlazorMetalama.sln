@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27A1328B-7F0D-4F13-8D83-7DBE23EDCB08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examplesrc", "examplesrc", "{9F248A60-BBCC-4050-94E9-0FDA2A1BAA4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B8A8620-8F4A-4A4F-B714-D2FD89634891}"
+	ProjectSection(SolutionItems) = preProject
+		examplesrc\Directory.build.props = examplesrc\Directory.build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.SampleApp", "examplesrc\Blazor.SampleApp\Blazor.SampleApp.csproj", "{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Metalama", "src\Blazor.Metalama\Blazor.Metalama.csproj", "{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B8A8620-8F4A-4A4F-B714-D2FD89634891} = {9F248A60-BBCC-4050-94E9-0FDA2A1BAA4C}
+		{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B} = {9F248A60-BBCC-4050-94E9-0FDA2A1BAA4C}
+		{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE} = {27A1328B-7F0D-4F13-8D83-7DBE23EDCB08}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D411D933-EB4C-480A-AEF8-84FDBE7E7C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A3FC7D-3F2E-4D5C-93A1-E387774695FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

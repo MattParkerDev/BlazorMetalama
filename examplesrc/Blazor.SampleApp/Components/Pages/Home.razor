@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+@code {
+
+	protected override void OnInitialized()
+	{
+		Console.WriteLine("Do a thing");
+		DoAnotherThing();
+	}
+
+	public void DoAnotherThing()
+	{
+		Console.WriteLine("Do Another Thing");
+	}
+}
