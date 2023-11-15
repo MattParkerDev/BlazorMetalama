@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
 <!--		<UseRazorSourceGenerator>false</UseRazorSourceGenerator> -->
+		<EnableRequestDelegateGenerator>false</EnableRequestDelegateGenerator>
     </PropertyGroup>
 
     <ItemGroup>
